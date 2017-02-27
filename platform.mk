@@ -88,10 +88,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.bt.hci_transport=smd
 
-# Qualcom FMRadio
-PRODUCT_PACKAGES += \
-    FMRadio
-
 # Telephony Packages (AOSP)
 PRODUCT_PACKAGES += \
     InCallUI \
